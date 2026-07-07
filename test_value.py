@@ -12,7 +12,8 @@ class TestValue(unittest.TestCase):
 
         self.assertIsInstance(result, Value)
         self.assertEqual(result.data, 5.0)
-        
+
+    #python -m unittest test_value.TestValue.test_mul_returns_value_with_product
     def test_mul_returns_value_with_product(self):
         result = Value(2.0) * Value(3.0)
 
