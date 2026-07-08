@@ -8,7 +8,6 @@ class Value:
         self._op = _op
         self.label = label
         
-
     def __repr__(self):
         return f"Value(data={self.data})"
 
