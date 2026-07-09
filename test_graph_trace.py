@@ -2,7 +2,6 @@ import unittest
 
 from value import Value
 from graph_trace import draw_dot
-from topo_helper import build_topo, topo
 
 
 class TestGraphTrace(unittest.TestCase):
